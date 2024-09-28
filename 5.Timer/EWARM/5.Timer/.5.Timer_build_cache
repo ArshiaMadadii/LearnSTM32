@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\Lesson\Gard Academy\Code\5.Timer\EWARM\5.Timer\Exe\5.Timer.out</Path>
+            <Output>
+                <Path>D:\Lesson\Gard Academy\Code\5.Timer\EWARM\5.Timer\List\5.Timer.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>
