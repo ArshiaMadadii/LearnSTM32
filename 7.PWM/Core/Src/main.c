@@ -22,8 +22,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
-  #include "LCD/lcd.h"
-  #include "stdio.h"
+#include "LCD/lcd.h"
+#include "stdio.h"
 
 /* USER CODE END Includes */
 
@@ -103,17 +103,18 @@ int main(void)
   lcd_clear();
   lcd_gotoxy(0,0);
   lcd_puts("Hi PWM...");
-  HAL_Delay(2000);
+  HAL_Delay(3000);
   lcd_clear();
   
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
   
+  
   while (1)
   {
     /* USER CODE END WHILE */
+    
     __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,127);
     
-
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
