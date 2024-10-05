@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspace>
+<<<<<<< HEAD
     <batchBuild />
+=======
+  <project>
+    <path>$WS_DIR$\9.UART.ewp</path>
+  </project>
+  <batchBuild />
+>>>>>>> 25956c9ea72e0fb6733f91ad5acc77392aeec71a
 </workspace>
