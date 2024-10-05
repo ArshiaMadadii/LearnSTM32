@@ -1,0 +1,48 @@
+# ninja log v5
+86	424	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/CMSIS_6603591812247902717.dir/system_stm32f1xx.xcl	9592787c7b139168
+0	429	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_cortex.xcl	8932031d4e013d26
+75	436	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_dma.xcl	72f242ae19a2f620
+80	443	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/Core_13247989168731456611.dir/stm32f1xx_hal_msp.xcl	26dc91034a30f7fd
+425	561	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal.xcl	2e6a6957abbddd51
+431	569	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/Core_13247989168731456611.dir/stm32f1xx_it.xcl	b906def4fca9c9eb
+438	584	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/Core_13247989168731456611.dir/main.xcl	92c92442cf4516d3
+446	598	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_gpio.xcl	4f2d676e0a15675
+564	708	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_exti.xcl	f2b33f1b45695fee
+571	714	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_flash.xcl	d1c4afcae2c1ac51
+586	724	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_flash_ex.xcl	7eb1b1da5a2973a
+601	740	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_gpio_ex.xcl	d663e58b457ca84d
+710	1263	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_pwr.xcl	cd34c19a84d36c33
+726	1270	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_tim_ex.xcl	67f7cc652ac27681
+717	1278	7498408340000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_spi.xcl	91e3c7aa61afaac9
+1265	1401	7498408350000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_rcc.xcl	a8a4571398d5c906
+1273	1413	7498408350000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_tim.xcl	1e54e32fa7fb213d
+1280	1427	7498408350000000	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_rcc_ex.xcl	c1e7bc0f9e88dd25
+742	1602	7498408352589114	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/Core_13247989168731456611.dir/main.pbi	c4bf1639cfcfade9
+1403	1770	7498408354291565	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/CMSIS_6603591812247902717.dir/system_stm32f1xx.pbi	c80c5adb2ac6e98
+1430	1776	7498408354354335	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/Core_13247989168731456611.dir/stm32f1xx_it.pbi	e8fc62057609ac22
+1417	1790	7498408354424354	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_cortex.pbi	d0ee7ef51ee13cfe
+1605	1928	7498408355857244	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal.pbi	5b9a3ad081d0419c
+1792	2173	7498408358316545	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/Core_13247989168731456611.dir/stm32f1xx_hal_msp.pbi	6a5f39d6516cb0ef
+1772	2195	7498408358536639	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_dma.pbi	73b9ce43e147871d
+1778	2296	7498408359556122	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_exti.pbi	8991e0fdab45f5a2
+1930	2353	7498408360099279	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_flash_ex.pbi	e2ffa07f8510f6f8
+2175	2510	7498408361684813	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_gpio_ex.pbi	a6aabcb91962ddad
+2198	2528	7498408361848685	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_gpio.pbi	456283fe016f4760
+2298	2629	7498408362877008	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_flash.pbi	363ff38738a87ea3
+2355	2772	7498408364308130	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_pwr.pbi	3ebd0b10f971ca90
+2530	2831	7498408364890992	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_rcc_ex.pbi	91de44a7799969c2
+2512	2874	7498408364982634	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_rcc.pbi	976cd090d5c75ae4
+2774	3057	7498408367150611	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_tim_ex.pbi	e82128f13b674fae
+2631	3089	7498408367454768	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_spi.pbi	d552a23bebb14e08
+2876	3160	7498408368222929	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/10.SPI and 74hc595_part0.pbi	6417974e905bc3ae
+2833	3173	7498408368332944	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/10.SPI and 74hc595_part1.pbi	28442dc117e2f93f
+3059	3353	7498408370154290	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/10.SPI and 74hc595_part2.pbi	a357b0ddb492ccf6
+3161	3489	7498408371507581	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/10.SPI and 74hc595_part3.pbi	de10facace67596f
+3091	3513	7498408371738156	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_tim.pbi	90d2fae24a767998
+3516	3690	7498408373522223	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/10.SPI and 74hc595_part4.pbi	5f6a3230e67613cd
+3692	3932	7498408375942062	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/10.SPI and 74hc595.pbd	67ffd609f88c8ea
+3934	6323	7498408399537242	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/10.SPI and 74hc595.pbw	1fc5737acd52dd0b
+1	176	7498415293880217	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/Core_13247989168731456611.dir/main.pbi	c4bf1639cfcfade9
+178	361	7498415295748262	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/10.SPI and 74hc595_part0.pbi	6417974e905bc3ae
+364	577	7498415297911606	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/10.SPI and 74hc595.pbd	67ffd609f88c8ea
+579	1810	7498415309772017	D:/Lesson/Gard Academy/Code/10.SPI and 74hc595/EWARM/10.SPI and 74hc595/BrowseInfo/10.SPI and 74hc595.pbw	1fc5737acd52dd0b
