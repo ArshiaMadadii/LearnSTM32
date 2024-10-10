@@ -1,0 +1,22 @@
+# ninja log v5
+1	327	7502824886518515	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/Core_13247989168731456611.dir/stm32f1xx_it.o	9d0bf1650231f839
+13	404	7502824887283235	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/Core_13247989168731456611.dir/stm32f1xx_hal_msp.o	cf549e0b9bf4611a
+18	430	7502824887373268	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/CMSIS_6603591812247902717.dir/system_stm32f1xx.o	86514dc5094284cd
+6	437	7502824887409714	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal.o	73cbf4a7dc6a66e4
+329	555	7502824888821908	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/Core_13247989168731456611.dir/main.o	1f90c8bfc602abcc
+406	775	7502824890970087	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_flash.o	eb06ccc877687526
+432	832	7502824891539671	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_flash_ex.o	7ceac33634f3c21a
+557	882	7502824892077483	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_cortex.o	b0f3c9c25e2cc7e2
+439	979	7502824893049382	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_dma.o	e80ecb1b9db79a7c
+778	1086	7502824894113808	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_exti.o	f9cd14f4107ef6e1
+981	1191	7502824895184225	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_gpio_ex.o	c69505973820646c
+1089	1339	7502824896639684	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_pwr.o	34f176bd2b97ad11
+834	1383	7502824897081934	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_rcc.o	48e40b171b4e4dad
+1341	1391	7502824897201634	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/EWARM_18443280873093131863.dir/startup_stm32f103xb.o	c46927cba5f2f30
+884	1446	7502824897728239	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_gpio.o	ca5ea5a8baf830e0
+1193	1470	7502824897953411	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_rcc_ex.o	5560d5550ae85709
+1394	1590	7502824899163941	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_tim.o	7f84350e542a9d4d
+1447	1625	7502824899526301	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_tim_ex.o	1392ee486451f6f2
+1386	2460	7502824907873566	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_uart.o	489aa772868ece21
+2464	2627	7502824909514214	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Exe/Master and Slave Bluetooth.out	44861fda622caa62
+2631	2838	7502824911761565	D:/Git/Mini Project/Master and Slave Bluetooth/EWARM/Master and Slave Bluetooth/Exe/Master and Slave Bluetooth.hex	1a9f942d159da6f2
