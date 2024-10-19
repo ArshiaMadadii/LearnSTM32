@@ -22,6 +22,9 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+#include "fonts.h"
+#include "ssd1306.h"
+#include "animation.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -93,13 +96,84 @@ int main(void)
 
   /* USER CODE END 2 */
 
+  /*OLED*/
+  SSD1306_Init (); // initialise the display
+
+  SSD1306_GotoXY(0,0); //SSD1306_GotoXY(uint16_t x, uint16_t y);
+  SSD1306_Puts ("HELLO...", &Font_11x18, 1); // print Hello -SSD1306_Puts(char ch, FontDef_t* Font, SSD1306_COLOR_t color);
+  SSD1306_GotoXY (10, 30);
+  SSD1306_Puts ("OLED", &Font_11x18, 1);
+  SSD1306_UpdateScreen(); // update screen
+
+  HAL_Delay(2000);
+
+
+
+/*
+
+	scroll the screen for fixed rows
+  void SSD1306_ScrollRight(uint8_t start_row, uint8_t end_row);
+  void SSD1306_ScrollLeft(uint8_t start_row, uint8_t end_row);
+  void SSD1306_Scrolldiagright(uint8_t start_row, uint8_t end_row);
+  void SSD1306_Scrolldiagleft(uint8_t start_row, uint8_t end_row);
+  void SSD1306_Stopscroll(void);
+
+  */
+
+  SSD1306_ScrollRight(0x00,0x0f);
+  HAL_Delay(2000);
+  SSD1306_Scrolldiagleft(0x00,0x0f);
+
+
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
     /* USER CODE END WHILE */
 
-    /* USER CODE BEGIN 3 */
+	 //Animation
+
+	 SSD1306_Clear();
+	 SSD1306_DrawBitmap(0, 0, horse1, 128, 64, 1); //SSD1306_DrawBitmap(x, y, bitmap, w, h, color)
+	 SSD1306_UpdateScreen();
+
+	 SSD1306_Clear();
+	 SSD1306_DrawBitmap(0, 0, horse2, 128, 64, 1);
+ 	 SSD1306_UpdateScreen();
+
+	 SSD1306_Clear();
+	 SSD1306_DrawBitmap(0, 0, horse3, 128, 64, 1);
+	 SSD1306_UpdateScreen();
+
+	 SSD1306_Clear();
+	 SSD1306_DrawBitmap(0, 0, horse4, 128, 64, 1);
+ 	 SSD1306_UpdateScreen();
+
+	 SSD1306_Clear();
+	 SSD1306_DrawBitmap(0, 0, horse5, 128, 64, 1);
+ 	 SSD1306_UpdateScreen();
+
+	 SSD1306_Clear();
+	 SSD1306_DrawBitmap(0, 0, horse6, 128, 64, 1);
+	 SSD1306_UpdateScreen();
+
+	 SSD1306_Clear();
+	 SSD1306_DrawBitmap(0, 0, horse7, 128, 64, 1);
+ 	 SSD1306_UpdateScreen();
+
+	 SSD1306_Clear();
+	 SSD1306_DrawBitmap(0, 0, horse8, 128, 64, 1);
+	 SSD1306_UpdateScreen();
+
+	 SSD1306_Clear();
+	 SSD1306_DrawBitmap(0, 0, horse9, 128, 64, 1);
+ 	 SSD1306_UpdateScreen();
+
+	 SSD1306_Clear();
+	 SSD1306_DrawBitmap(0, 0, horse10, 128, 64, 1);
+ 	 SSD1306_UpdateScreen();
+
+ 	 /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }
