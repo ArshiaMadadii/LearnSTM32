@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\Lesson\Gard Academy\Code\6.CNT(Counter)\EWARM\6.CNT(Counter)\Exe\6.CNT(Counter).out</Path>
+            <Output>
+                <Path>D:\Lesson\Gard Academy\Code\6.CNT(Counter)\EWARM\6.CNT(Counter)\List\6.CNT(Counter).map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

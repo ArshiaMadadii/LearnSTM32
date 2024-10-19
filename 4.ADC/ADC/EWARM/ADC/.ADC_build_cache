@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\Lesson\Gard Academy\Code\4.ADC\ADC\EWARM\ADC\Exe\ADC.out</Path>
+            <Output>
+                <Path>D:\Lesson\Gard Academy\Code\4.ADC\ADC\EWARM\ADC\List\ADC.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

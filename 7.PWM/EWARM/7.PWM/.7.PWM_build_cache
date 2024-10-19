@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\Lesson\Gard Academy\Code\7.PWM\EWARM\7.PWM\Exe\7.PWM.out</Path>
+            <Output>
+                <Path>D:\Lesson\Gard Academy\Code\7.PWM\EWARM\7.PWM\List\7.PWM.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>
