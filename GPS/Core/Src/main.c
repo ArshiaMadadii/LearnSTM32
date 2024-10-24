@@ -100,6 +100,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   Ringbuf_init(); //initial Ringbuffer
+  HAL_Delay(500);
 
   /* USER CODE END 2 */
 
@@ -108,6 +109,13 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+
+	  //GGA
+	  if(Wait_for("GGA")==1)
+	  {
+		 Copy_upto("*",GGA);
+		 decodeGGA(GGA, &gpsData.ggastruct);
+	  }
 
     /* USER CODE BEGIN 3 */
   }
