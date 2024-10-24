@@ -93,6 +93,8 @@ int main(void)
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
 
+  Ringbuf_init(); //initial Ringbuffer
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
