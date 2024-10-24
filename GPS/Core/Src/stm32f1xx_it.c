@@ -27,6 +27,8 @@
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN TD */
 
+#include "uartRingBuffer.h" //add LIB
+
 /* USER CODE END TD */
 
 /* Private define ------------------------------------------------------------*/
@@ -51,6 +53,9 @@
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+extern void Uart_isr (UART_HandleTypeDef *huart); //line 24 uartRingBuffer LIB
+extern uint16_t timeout; //line 25 uartRingBuffer LIB
 
 /* USER CODE END 0 */
 
@@ -184,6 +189,8 @@ void SysTick_Handler(void)
 {
   /* USER CODE BEGIN SysTick_IRQn 0 */
 
+	if (timeout > 0) timeout--;
+
   /* USER CODE END SysTick_IRQn 0 */
   HAL_IncTick();
   /* USER CODE BEGIN SysTick_IRQn 1 */
@@ -205,8 +212,10 @@ void USART1_IRQHandler(void)
 {
   /* USER CODE BEGIN USART1_IRQn 0 */
 
+	Uart_isr(&huart1);
+
   /* USER CODE END USART1_IRQn 0 */
-  HAL_UART_IRQHandler(&huart1);
+									//HAL_UART_IRQHandler(&huart1); commented
   /* USER CODE BEGIN USART1_IRQn 1 */
 
   /* USER CODE END USART1_IRQn 1 */
