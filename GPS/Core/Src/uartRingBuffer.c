@@ -12,7 +12,8 @@
 
 /**** define the UART you are using  ****/
 
-UART_HandleTypeDef huart1;
+extern UART_HandleTypeDef huart1;
+//UART_HandleTypeDef huart1;
 
 #define uart &huart1
 

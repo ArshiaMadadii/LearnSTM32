@@ -697,7 +697,6 @@ Discarded input sections
  .text          0x00000000        0x0 ./Core/Src/uartRingBuffer.o
  .data          0x00000000        0x0 ./Core/Src/uartRingBuffer.o
  .bss           0x00000000        0x0 ./Core/Src/uartRingBuffer.o
- .bss.huart1    0x00000000       0x48 ./Core/Src/uartRingBuffer.o
  .text.check_for
                 0x00000000       0xb6 ./Core/Src/uartRingBuffer.o
  .text.Uart_read
@@ -3107,31 +3106,31 @@ LOAD C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 LOAD C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x00000000     0x7279
+.debug_info     0x00000000     0x7274
  .debug_info    0x00000000      0x86c ./Core/Src/main.o
  .debug_info    0x0000086c      0x9a5 ./Core/Src/stm32f1xx_hal_msp.o
  .debug_info    0x00001211      0x5f4 ./Core/Src/stm32f1xx_it.o
  .debug_info    0x00001805      0x222 ./Core/Src/system_stm32f1xx.o
- .debug_info    0x00001a27      0xa2a ./Core/Src/uartRingBuffer.o
- .debug_info    0x00002451       0x30 ./Core/Startup/startup_stm32f103c8tx.o
- .debug_info    0x00002481      0x704 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_info    0x00002b85      0xa87 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_info    0x0000360c      0x5ab ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_info    0x00003bb7      0x7d5 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_info    0x0000438c     0x2eed ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
+ .debug_info    0x00001a27      0xa25 ./Core/Src/uartRingBuffer.o
+ .debug_info    0x0000244c       0x30 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_info    0x0000247c      0x704 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_info    0x00002b80      0xa87 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_info    0x00003607      0x5ab ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_info    0x00003bb2      0x7d5 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_info    0x00004387     0x2eed ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
 
-.debug_abbrev   0x00000000     0x169a
+.debug_abbrev   0x00000000     0x16ad
  .debug_abbrev  0x00000000      0x230 ./Core/Src/main.o
  .debug_abbrev  0x00000230      0x1ca ./Core/Src/stm32f1xx_hal_msp.o
  .debug_abbrev  0x000003fa      0x177 ./Core/Src/stm32f1xx_it.o
  .debug_abbrev  0x00000571      0x13f ./Core/Src/system_stm32f1xx.o
- .debug_abbrev  0x000006b0      0x358 ./Core/Src/uartRingBuffer.o
- .debug_abbrev  0x00000a08       0x24 ./Core/Startup/startup_stm32f103c8tx.o
- .debug_abbrev  0x00000a2c      0x201 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_abbrev  0x00000c2d      0x2f8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_abbrev  0x00000f25      0x1ca ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_abbrev  0x000010ef      0x2b3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_abbrev  0x000013a2      0x2f8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
+ .debug_abbrev  0x000006b0      0x36b ./Core/Src/uartRingBuffer.o
+ .debug_abbrev  0x00000a1b       0x24 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_abbrev  0x00000a3f      0x201 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_abbrev  0x00000c40      0x2f8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_abbrev  0x00000f38      0x1ca ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_abbrev  0x00001102      0x2b3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_abbrev  0x000013b5      0x2f8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
 
 .debug_aranges  0x00000000      0x680
  .debug_aranges
