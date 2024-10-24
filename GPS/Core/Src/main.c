@@ -22,6 +22,9 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+#include "uartRingBuffer.h" //add LIB
+#include "NMEA.h" //add LIB
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
