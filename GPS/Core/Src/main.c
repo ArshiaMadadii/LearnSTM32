@@ -120,7 +120,7 @@ int main(void)
 	  	  if(Wait_for("RMC")==1)
 	  	  {
 	  		 Copy_upto("*",RMC);
-	  		 decodeRMC(RMC, &gpsData.RMCstruct);
+	  		 decodeRMC(RMC, &gpsData.rmcstruct);
 	  	  }
 
     /* USER CODE BEGIN 3 */
