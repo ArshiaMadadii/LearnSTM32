@@ -116,6 +116,12 @@ int main(void)
 		 Copy_upto("*",GGA);
 		 decodeGGA(GGA, &gpsData.ggastruct);
 	  }
+	  //RMC
+	  	  if(Wait_for("RMC")==1)
+	  	  {
+	  		 Copy_upto("*",RMC);
+	  		 decodeRMC(RMC, &gpsData.RMCstruct);
+	  	  }
 
     /* USER CODE BEGIN 3 */
   }
