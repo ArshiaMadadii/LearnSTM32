@@ -13,7 +13,7 @@
 #include "math.h"
 
 
-int GMT = +530;
+int GMT = +330; //GMT for Iran
 
 
 
