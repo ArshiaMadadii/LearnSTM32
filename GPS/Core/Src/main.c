@@ -59,6 +59,12 @@ static void MX_USART1_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+char GGA[100];
+char RMC[100];
+
+GPSSTRUCT gpsData;
+
 /* USER CODE END 0 */
 
 /**
