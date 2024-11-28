@@ -47,7 +47,7 @@ ADC_HandleTypeDef hadc1;
 
 /* USER CODE BEGIN PV */
 
-char str1[17];
+  char str1[17];
 char str2[17];
 float v1;
 float v2;
