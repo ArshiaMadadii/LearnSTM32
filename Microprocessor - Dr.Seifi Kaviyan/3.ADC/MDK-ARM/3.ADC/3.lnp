@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"3.adc\startup_stm32f103xb.o"
+"3.adc\main.o"
+"3.adc\stm32f1xx_it.o"
+"3.adc\stm32f1xx_hal_msp.o"
+"3.adc\stm32f1xx_hal_gpio_ex.o"
+"3.adc\stm32f1xx_hal_adc.o"
+"3.adc\stm32f1xx_hal_adc_ex.o"
+"3.adc\stm32f1xx_hal.o"
+"3.adc\stm32f1xx_hal_rcc.o"
+"3.adc\stm32f1xx_hal_rcc_ex.o"
+"3.adc\stm32f1xx_hal_gpio.o"
+"3.adc\stm32f1xx_hal_dma.o"
+"3.adc\stm32f1xx_hal_cortex.o"
+"3.adc\stm32f1xx_hal_pwr.o"
+"3.adc\stm32f1xx_hal_flash.o"
+"3.adc\stm32f1xx_hal_flash_ex.o"
+"3.adc\stm32f1xx_hal_exti.o"
+"3.adc\stm32f1xx_hal_tim.o"
+"3.adc\stm32f1xx_hal_tim_ex.o"
+"3.adc\system_stm32f1xx.o"
+"3.adc\lcd.o"
+--strict --scatter "3.ADC\3.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "3.map" -o 3.ADC\3.ADC
