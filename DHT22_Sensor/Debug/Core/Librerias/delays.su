@@ -1,0 +1,6 @@
+../Core/Librerias/delays.c:17:6:delay_us_C	24	static
+../Core/Librerias/delays.c:35:6:delay_us_ASM	16	static,ignoring_inline_asm
+../Core/Librerias/delays.c:60:6:delay_us_ASM_IT	16	static,ignoring_inline_asm
+../Core/Librerias/delays.c:107:6:delay_us_dwt_init	8	static
+../Core/Librerias/delays.c:116:6:delay_us_dwt	16	static
+../Core/Librerias/delays.c:124:6:Delay_ms	24	static

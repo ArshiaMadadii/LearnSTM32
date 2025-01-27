@@ -1,0 +1,6 @@
+../Core/Librerias/puertos.c:11:6:Output_Pin	24	static
+../Core/Librerias/puertos.c:73:6:Input_Pin	24	static
+../Core/Librerias/puertos.c:119:6:Output_Pin1	32	static
+../Core/Librerias/puertos.c:129:6:Input_Pin1	32	static
+../Core/Librerias/puertos.c:177:9:waitforhigh	24	static
+../Core/Librerias/puertos.c:193:9:waitforlow	24	static

@@ -1,0 +1,3 @@
+../Core/Librerias/DHT11_LIB.c:14:6:DHT11_start	1
+../Core/Librerias/DHT11_LIB.c:28:9:DHT11_ok	2
+../Core/Librerias/DHT11_LIB.c:40:7:DHT11_Read	11

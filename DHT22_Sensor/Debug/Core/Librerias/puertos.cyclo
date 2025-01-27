@@ -1,0 +1,6 @@
+../Core/Librerias/puertos.c:11:6:Output_Pin	4
+../Core/Librerias/puertos.c:73:6:Input_Pin	4
+../Core/Librerias/puertos.c:119:6:Output_Pin1	1
+../Core/Librerias/puertos.c:129:6:Input_Pin1	1
+../Core/Librerias/puertos.c:177:9:waitforhigh	3
+../Core/Librerias/puertos.c:193:9:waitforlow	3
