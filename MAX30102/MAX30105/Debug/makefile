@@ -53,6 +53,9 @@ default.size.stdout \
 OBJDUMP_LIST += \
 MAX30105.list \
 
+OBJCOPY_HEX += \
+MAX30105.hex \
+
 
 # All Target
 all: main-build
@@ -76,12 +79,17 @@ MAX30105.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
+MAX30105.hex: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objcopy  -O ihex $(EXECUTABLES) "MAX30105.hex"
+	@echo 'Finished building: $@'
+	@echo ' '
+
 # Other Targets
 clean:
-	-$(RM) MAX30105.elf MAX30105.list MAX30105.map default.size.stdout
+	-$(RM) MAX30105.elf MAX30105.hex MAX30105.list MAX30105.map default.size.stdout
 	-@echo ' '
 
-secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
+secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_HEX)
 
 fail-specified-linker-script-missing:
 	@echo 'Error: Cannot find the specified linker script. Check the linker settings in the build configuration.'

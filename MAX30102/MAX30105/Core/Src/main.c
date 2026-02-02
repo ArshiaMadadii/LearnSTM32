@@ -27,6 +27,10 @@
 #include "fonts.h"
 #include "ssd1306.h"
 #include "stdio.h"
+#include "MAX30102/MAX30102.h"
+#include "MAX30102/algorithm.h"
+
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -60,6 +64,27 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+uint32_t ir[100];
+uint32_t red[100];
+
+float spo2;
+float ratio;
+float correl;
+
+int32_t hr;
+
+int8_t spo2_ok;
+int8_t hr_ok;
+
+
+static void MAX30102_PollFill(uint32_t *ir_buf, uint32_t *red_buf, uint16_t n)
+{
+    for (uint16_t i = 0; i < n; i++)
+    {
+    	Max30102_ReadFifo(&red_buf[i], &ir_buf[i]);
+        HAL_Delay(10);
+    }
+}
 
 /* USER CODE END 0 */
 
@@ -96,11 +121,12 @@ int main(void)
   MX_I2C2_Init();
   /* USER CODE BEGIN 2 */
   SSD1306_Init();
+  Max30102_Init(&hi2c2);
 
   SSD1306_GotoXY (0,0);
-  SSD1306_Puts ("Mcroprocessor", &Font_11x18, 1);
+  SSD1306_Puts ("Mcroprocessor", &Font_7x10, 1);
   SSD1306_GotoXY (0, 30);
-  SSD1306_Puts ("MX30102", &Font_11x18, 1);
+  SSD1306_Puts ("MX30102", &Font_7x10, 1);
   SSD1306_UpdateScreen();
   HAL_Delay (1000);
   /* USER CODE END 2 */
@@ -109,10 +135,28 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
+      uint32_t ir0, red0;
+      char s[22];
 
-    /* USER CODE BEGIN 3 */
+      Max30102_ReadFifo(&red0, &ir0);
+
+      SSD1306_Clear();
+      SSD1306_GotoXY(0,0);
+      SSD1306_Puts("RAW", &Font_11x18, 1);
+
+      SSD1306_GotoXY(0, 25);
+      sprintf(s, "IR:%lu", ir0);
+      SSD1306_Puts(s, &Font_7x10, 1);
+
+      SSD1306_GotoXY(0, 40);
+      sprintf(s, "RED:%lu", red0);
+      SSD1306_Puts(s, &Font_7x10, 1);
+
+      SSD1306_UpdateScreen();
+      HAL_Delay(100);
   }
+
+
   /* USER CODE END 3 */
 }
 
